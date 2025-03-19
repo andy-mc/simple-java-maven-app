@@ -59,7 +59,7 @@ job('Job test Hola Mundo') {
     	}    
 	steps {
 		shell('''
-			echo "Hola Mundo kkkk funciono 22222!!!!"
+			echo "Hola Mundo kkkk funciono 22222 333 hay que actualizar el seed!!!!"
 		''')
 	}
 }
