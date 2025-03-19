@@ -1,5 +1,5 @@
 job('Java Maven App DSL 3') {
-    description('Java Maven App con DSL para el curso de Jenkins')
+    description('Java Maven App con DSL para el curso de Jenkins cambio super bien')
     scm {
         git('https://github.com/andy-mc/simple-java-maven-app.git', 'master') { node ->
             node / gitConfigName('andy-mc')
@@ -47,7 +47,7 @@ job('Java Maven App DSL 3') {
 }
 
 job('Job test Hola Mundo') {
-	description('Aplicacion Hola Mundo de Prueba')
+	description('Aplicacion Hola Mundo de Prueba yaaa')
 	scm {
 		git('https://github.com/andy-mc/simple-java-maven-app.git', 'master') { node ->
 		    node / gitConfigName('andy-mc')
@@ -59,7 +59,7 @@ job('Job test Hola Mundo') {
     	}    
 	steps {
 		shell('''
-			echo "Hola Mundo kkkk funciono !!!!"
+			echo "Hola Mundo kkkk funciono 22222!!!!"
 		''')
 	}
 }
